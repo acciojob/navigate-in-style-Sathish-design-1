@@ -1,14 +1,15 @@
-.navbar {
-    background-color: #D3D3D3; /* Step 1 */
-    padding: 10px; /* Step 2 */
+.nav-bar {
+    background-color: #D3D3D3; /* Background color */
+    padding: 10px; /* Padding */
 }
 
-.navbar ul {
-    list-style: none; /* Step 6 */
+.nav-bar ul {
+    list-style: none; /* Remove bullets */
     padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
 }
 
-.navbar li {
-    display: inline; /* Step 4 */
-    margin-right: 1rem; /* Step 5 */
+.nav-bar li {
+    display: inline; /* Display items horizontally */
+    margin-right: 1rem; /* Space between items */
 }
